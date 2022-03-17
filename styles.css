@@ -1,0 +1,24 @@
+
+.spinner {
+    border: 10px solid #f3f3f3;
+    border-top: 10px solid currentColor;
+    border-bottom: 10px solid darkgray;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    animation: spinner 1.5s linear infinite;
+    display: inline-block;
+    position: relative;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+@keyframes spinner {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
